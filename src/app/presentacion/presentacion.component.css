@@ -1,11 +1,13 @@
 .contenedor { 
-    position: relative;
-    bottom: 200px;
+   
+    position:relative;
+    top: 200px;
     left: 550px;
     width: 30%;
     height: auto;
     border: 3px solid #73AD21;
     padding: 10px;
+    margin-bottom: 10px;
     
             
 }

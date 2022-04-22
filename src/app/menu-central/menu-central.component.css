@@ -1,18 +1,12 @@
-html{
-    scroll-behavior: smooth;
-}
-
-
-
-
-.menu{ display: inline-block;
+.menu{ display: block;
     text-align:left;
     background-color: blueviolet;
     width: 423px;
     height: 445px;
     position: relative;
     top: 200px;
- 
+    left: 550px;
+    margin-bottom: 10px;
 }
 
 .boton { background-color: #1b27d1;

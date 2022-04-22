@@ -1,5 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 *, html{
     scroll-behavior:smooth;
-    background-color: rgb(216, 216, 233);
+    
+    
+}
+
+body{
+    background-color: rgb(217, 236, 236);
 }

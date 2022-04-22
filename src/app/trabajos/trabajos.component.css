@@ -1,19 +1,18 @@
-
-html{
-    scroll-behavior: smooth;
-}
-
-
-body{background-color: aqua;}
-
-div{
-    position: relative;
-    width: 350px;
-     height: 350px;
-    padding: 10px;
-    }
-
 .lorem {position: relative;
-        top: 50px;
-        background-color: aqua;
-        border: 2px solid black;}    
+        top: 200px;
+        left: 550px;
+        width: 30%;
+        height: auto;
+        border: 2px solid black;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;}    
+        
+ .body {
+         background-color: rgb(217, 236, 236);;
+ }       
+
+
+                    
+       
+                
