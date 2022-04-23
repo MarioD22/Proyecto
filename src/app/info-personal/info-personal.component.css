@@ -1,12 +1,33 @@
+.FondoInfoPersonal{  
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(224, 214, 214);
+    opacity: 0.5;
+    bottom: 410px;
+  
+  }
 .contenedor { 
    
     position:relative;
-    top:200px;
+    
+    margin-top: 30px;
     left: 550px;
     width: 30%;
     height: auto;
-    border: 3px solid #73AD21;
     padding: 10px;
-    margin-bottom: 10px;
-            
+    margin-bottom: 210px;
+                
+}
+
+p{  color: black;
+   
+    text-align: justify;
+    font-size: 18px;
+}
+
+h2 {
+    color: rgb(44, 40, 40);
+    text-align: center;
+     
 }

@@ -1,12 +1,42 @@
+.FondoCapacitacion{  
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: white;   
+    bottom: 610px;
+  
+  }
 .contenedor { 
    
     position:relative;
-    top: 200px;
+    background-color: white;
+    margin-top: 30px;
     left: 550px;
     width: 30%;
     height: auto;
-    border: 3px solid #73AD21;
     padding: 10px;
-    margin-top: 10px;
-            
+    margin-bottom: 10px;
+                
+}
+
+p{  color: rgb(184, 178, 178);
+   
+    text-align: center;
+    font-size: 18px;
+}
+
+h2 {
+    color: rgb(44, 40, 40);
+    text-align: center;
+     
+}
+
+
+.CapacitacionImagen{
+    position: relative;
+    width: 30%;
+    height: 30%;
+    bottom: 910px;
+    padding-left: 5px;
+    border-radius: 50px;
 }

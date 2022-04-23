@@ -1,22 +1,35 @@
-.sobremi{background-color: chocolate;
-         position: absolute;
-         bottom: -38px;
-         right: 0;
-         height: 445px;
+.sobremi{
+    position: absolute;
+         color: white;
+         background-color: grey;
+         opacity: 0.4;
+         top: 265px;
+         right: 0;         
+         width:220px ;
+         height: auto;
+       
+         /*height:387vh;*/
+                      
          }
 
 
 
 .boton{
-    background-color: #1b27d1;
-    border: none;
+    
+    border: 2px solid white;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    /*display: inline-block;*/
     display: block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 10px;
+}
+
+.boton:hover {
+background-color: white;
+color: black;
+
 }

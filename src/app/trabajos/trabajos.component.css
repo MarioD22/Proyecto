@@ -1,18 +1,49 @@
-.lorem {position: relative;
-        top: 200px;
-        left: 550px;
-        width: 30%;
-        height: auto;
-        border: 2px solid black;
-        padding: 10px;
-        margin-top: 10px;
-        margin-bottom: 10px;}    
+.FondoTrabajo{
+         background-color: aqua;
         
- .body {
-         background-color: rgb(217, 236, 236);;
- }       
+}
 
 
-                    
-       
-                
+
+.Trabajo1 {position: relative;
+           bottom: 880px;
+           width: 30%;
+           height: auto;
+           
+           margin-left: 20px;
+           margin-top: 10px;
+           margin-bottom: 10px;
+           text-align: justify;}    
+
+
+  .Trabajo2 {position: relative;
+            bottom: 1170px;
+             width: 30%;
+             left: 450px;
+             height: auto;
+              
+             margin-left:10px;
+               margin-top: 10px;
+             margin-bottom: 10px;
+             text-align: justify;}    
+
+             .Trabajo3 {position: relative;
+                bottom: 1650px;
+                 width: 30%;
+                 left: 900px;
+                 height: auto;
+                 
+                 margin-left: 20px;
+                   margin-top: 10px;
+                 margin-bottom: 10px;
+                 text-align: justify;
+               }       
+
+h2 {
+        bottom: 1650px;
+}
+
+  h3{ text-align: center;}      
+  
+  a, p { text-align: center;}
+  

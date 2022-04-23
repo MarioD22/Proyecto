@@ -1,26 +1,41 @@
 .menu{ display: block;
     text-align:left;
-    background-color: blueviolet;
+    top: 50px;
     width: 423px;
     height: 445px;
     position: relative;
-    top: 200px;
     left: 550px;
     margin-bottom: 10px;
+    
 }
 
-.boton { background-color: #1b27d1;
-    border: none;
+li {list-style:none;}
+
+.boton { 
+    border: 2px solid white;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    /*display: inline-block;*/
+    
     display: block;
     font-size: 16px;
-    margin: 44px 12px;
+        margin: 44px 12px;
     border-radius: 10px;
-    cursor: pointer;}
+    cursor: pointer;
+    }
+
+    .boton:hover {
+        background-color: white;
+        color: black;
+        
+        }
 
  
-           
+    .Fondo{
+        position: relative;
+        background-color: #1b27d1;
+        background-image: url(FondoMenu.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+   }          

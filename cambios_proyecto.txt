@@ -1,2 +1,3 @@
 21/4/2022......... se creo la rama1
 21/04/2022.......cambio de posición de los bloques
+22/04/2022......pongo fondo de los bloques
