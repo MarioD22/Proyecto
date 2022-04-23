@@ -8,7 +8,12 @@
   margin-bottom: 10px;
     }
 
-.Fondo {background-color: rgb(217, 236, 236);}
+.Fondo {background-color: rgb(217, 236, 236);
+        background-image: url(C:\Users\Pc\Desktop\proyecto\src\assets\FondoPerfil.jpg);
+        width: 1330px;
+        border-radius: 15px;
+        margin-left: 10px;  
+      }
 
 .imgPerfil {
    

@@ -1,18 +1,12 @@
 <div class = "login">
     <h4>Login</h4>
-    <form method="post">
-         <input type="text" name="" required="" value="Ingrese su nombre"><br><!--require obliga a rellenar el form-->
-         <input type="password" name="" required="" value="Ingrese su Password" ><br>
-         
-          
+    <form name=form method="post">
+         <input type="text" name="usuario" id="usuario" required="" value="Ingrese su nombre"><br>
+         <input type="password" name="password" required="" value="Ingrese su Password" ><br>
+               
            <input type="submit">
     
     
-         <!--
-        Utiliza method="get" para requerir datos desde un recurso. Solo debes usar GET para recuperar datos. Jamás uses GET con información sensible, como contraseñas o números de seguridad social.
-        Utiliza method="post" para enviar datos para su procesamiento. Utiliza este método si el formulario tiene datos sensibles como, por ejemplo, contraseñas o números de tarjetas de crédito.
-        El resultado final deberá seguir este formato: <form action="/cgi-bin/ scriptdelformulario.pl" method="post">.
-    -->  
   
     </form>
   </div>
