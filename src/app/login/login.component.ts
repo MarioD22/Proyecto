@@ -9,20 +9,24 @@ export class LoginComponent implements OnInit {
 
   constructor() { }
 
-
-
-
-  ngOnInit(): void {
-   
-
-    
-
-  }
-
-   
+  ngOnInit(): void {  
+/*
+    function login(): void  {
+      const login = document.getElementById("usuario");
+      const contraseña =  document.getElementById("pass");
  
+     if ((login?.innerText=="mario") && (contraseña?.innerText=="1234")){
+        return console.log("logueado");
+                                                }
+                             }*/
+
+                            
+                                             
+
+                     }
 
 
 
-  
-}
+
+                     
+                    }

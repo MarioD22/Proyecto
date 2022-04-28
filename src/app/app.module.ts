@@ -13,6 +13,8 @@ import { TrabajosComponent } from './trabajos/trabajos.component';
 import { LoginComponent } from './login/login.component';
 import { MenuCentralComponent } from './menu-central/menu-central.component';
 import { ImagenPerfilComponent } from './imagen-perfil/imagen-perfil.component';
+import { HeaderComponent } from './header/header.component';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { ImagenPerfilComponent } from './imagen-perfil/imagen-perfil.component';
     TrabajosComponent,
     LoginComponent,
     MenuCentralComponent,
-    ImagenPerfilComponent
+    ImagenPerfilComponent,
+    HeaderComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,

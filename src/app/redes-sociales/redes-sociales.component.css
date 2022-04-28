@@ -1,35 +1,51 @@
-.sobremi{
-    position: absolute;
-         color: white;
-         background-color: grey;
-         opacity: 0.4;
-         top: 265px;
-         right: 0;         
-         width:220px ;
-         height: auto;
-       
-         /*height:387vh;*/
-                      
-         }
 
 
-
-.boton{
-    
-    border: 2px solid white;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 10px;
+h2 {
+    color: rgb(44, 40, 40);
+    text-align: center;  
+    padding-bottom: 30px; 
+     
 }
 
-.boton:hover {
-background-color: white;
-color: black;
+h2:hover { position: relative;
+           background-color: black;
+           border-radius: 10px;
+           color: rgb(230, 221, 221);
+           font-size: 45px;
+           
 
+}
+    
+.boton { 
+    border: 2px solid rgb(68, 60, 60);
+    color: rgb(44, 42, 42);
+    padding: 15px 15px ;
+    text-align: center;
+    text-decoration: none;    
+    display: inline-block;
+    font-size: 16px;
+    width: 300px;    
+    margin: 44px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+
+
+    .boton:hover {
+        background-color: rgb(44, 40, 40);
+        color: rgb(230, 224, 224);
+        
+        }
+
+    li {list-style:none;
+        position: relative;
+        top:20px}
+
+
+
+
+
+#redessociales{
+    margin-top: 15px;
+    margin-bottom:15px;
 }

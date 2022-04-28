@@ -12,6 +12,15 @@ var LoginComponent = /** @class */ (function () {
     function LoginComponent() {
     }
     LoginComponent.prototype.ngOnInit = function () {
+        /*
+            function login(): void  {
+              const login = document.getElementById("usuario");
+              const contraseña =  document.getElementById("pass");
+         
+             if ((login?.innerText=="mario") && (contraseña?.innerText=="1234")){
+                return console.log("logueado");
+                                                        }
+                                     }*/
     };
     LoginComponent = __decorate([
         core_1.Component({

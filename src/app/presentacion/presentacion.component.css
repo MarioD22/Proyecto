@@ -1,4 +1,4 @@
-.FondoPresentacion{  
+/*.FondoPresentacion{  
     position: relative;
     width: 100%;
     height: 100%;
@@ -38,5 +38,35 @@ h2 {
     bottom: 380px;
     padding-left: 5px;
 }
+*/
+
+.PresentacionImagen{
+    position: relative;
+    width: 45%;
+    left:25%;
+    border-radius: 15px;
+}
+/*etiqueta parrafo le doy colo, alineacion izquierda, tamaño e interlineado de 40px*/
+p{  color: rgb(184, 178, 178);
+   
+    text-align: left;
+    font-size: 18px;
+    line-height: 40px;   
+}
 
 
+h2 {
+    color: rgb(44, 40, 40);
+    text-align: center;  
+    padding-bottom: 30px; 
+     
+}
+
+h2:hover { position: relative;
+           background-color: black;
+           border-radius: 10px;
+           color: rgb(230, 221, 221);
+           font-size: 45px;
+           
+
+}

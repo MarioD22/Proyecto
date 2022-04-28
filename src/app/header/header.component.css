@@ -1,0 +1,13 @@
+
+
+div {background: url(../../assets/FondoPerfil.jpg) ;
+    border-radius: 10px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+height: 100%;
+width: 100% ;
+ }
+
+

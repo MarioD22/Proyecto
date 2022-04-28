@@ -1,4 +1,4 @@
-.menu{ display: block;
+/*.menu{ display: block;
     text-align:left;
     top: 50px;
     width: 423px;
@@ -35,7 +35,45 @@ li {list-style:none;}
     .Fondo{
         position: relative;
         background-color: #1b27d1;
-        background-image: url(FondoMenu.jpg);
+        background-image: url(../../assets/FondoMenu.jpg);
         background-repeat: no-repeat;
         background-size: cover;
    }          
+*/
+
+#fondoMenu{
+    background-image: url(../../assets/FondoMenu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+      
+}
+
+.boton:hover {
+    background-color: white;
+    color: black;
+    
+    }
+
+    
+.boton { 
+    border: 2px solid white;
+    color: white;
+    padding: 15px 15px ;
+    text-align: center;
+    text-decoration: none;    
+    display: block;
+    font-size: 16px;
+    
+    margin: 44px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+
+    li {list-style:none;
+        position: relative;
+        top:20px}
+
+

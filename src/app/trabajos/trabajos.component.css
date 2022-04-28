@@ -1,4 +1,4 @@
-.FondoTrabajo{
+/*.FondoTrabajo{
          background-color: aqua;
         
 }
@@ -45,5 +45,28 @@ h2 {
 
   h3{ text-align: center;}      
   
-  a, p { text-align: center;}
-  
+  a, p { text-align: center;}*/
+
+  h2 {
+    color: rgb(44, 40, 40);
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+     
+}
+
+h2:hover { position: relative;
+    background-color: black;
+    border-radius: 10px;
+    color: rgb(230, 221, 221);
+    font-size: 45px;
+}  
+
+
+h3{ text-align: center;}   
+
+
+p { text-align: justify;
+       font-size: 14px;}  
+       
+a{text-align: center;}      

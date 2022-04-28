@@ -1,4 +1,4 @@
-.FondoInfoPersonal{  
+/*.FondoInfoPersonal{  
     position: relative;
     width: 100%;
     height: 100%;
@@ -10,7 +10,6 @@
 .contenedor { 
    
     position:relative;
-    
     margin-top: 30px;
     left: 550px;
     width: 30%;
@@ -30,4 +29,29 @@ h2 {
     color: rgb(44, 40, 40);
     text-align: center;
      
-}
+}*/
+
+h2 {
+    color: rgb(44, 40, 40);
+    text-align: center;   
+    margin-bottom: 25px;
+    margin-top: 25px;  
+    }
+
+
+    h2:hover { position: relative;
+        background-color: black;
+        border-radius: 10px;
+        color: rgb(230, 221, 221);
+        font-size: 45px;
+       
+    
+    }    
+
+p { 
+    
+    color: rgb(19, 17, 17);   
+    text-align: center;
+    font-size: 18px;
+}    
+

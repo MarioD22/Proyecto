@@ -1,4 +1,4 @@
-.imagenperfi{
+/*.imagenperfi{
   
   position:relative;
   display: inline-block;
@@ -9,8 +9,8 @@
     }
 
 .Fondo {background-color: rgb(217, 236, 236);
-        background-image: url(C:\Users\Pc\Desktop\proyecto\src\assets\FondoPerfil.jpg);
-        width: 1330px;
+        background-image: url(../../assets/FondoPerfil.jpg);
+        width: 100%;
         border-radius: 15px;
         margin-left: 10px;  
       }
@@ -21,3 +21,18 @@
   width: 200px;
   height: 200px;
      }
+*/
+
+/*imagen de perfil*/
+#fotoDePerfil{
+  position: relative;
+  display: inline-block;
+  border-radius: 50%; 
+  width: 250px;
+  height: 250px; 
+  top: 5px;
+  left:20px;
+ 
+  margin-bottom: 10px;
+}
+     
