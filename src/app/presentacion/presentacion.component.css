@@ -43,9 +43,10 @@ h2 {
 .PresentacionImagen{
     position: relative;
     width: 45%;
-    left:25%;
+    left:20%;
     border-radius: 15px;
 }
+
 /*etiqueta parrafo le doy colo, alineacion izquierda, tamaño e interlineado de 40px*/
 p{  color: rgb(184, 178, 178);
    
@@ -69,4 +70,8 @@ h2:hover { position: relative;
            font-size: 45px;
            
 
+}
+
+.row{
+    width: 100%;
 }

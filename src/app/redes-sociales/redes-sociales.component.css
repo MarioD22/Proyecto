@@ -49,3 +49,8 @@ h2:hover { position: relative;
     margin-top: 15px;
     margin-bottom:15px;
 }
+
+
+.row{
+    width: 100%;
+}
