@@ -20,7 +20,7 @@ h3{ text-align: center;}
 p { text-align: justify;
        font-size: 14px;}  
        
-a{text-align: center;}     
+p a {text-align: center;}     
 
 .row{
   width: 100%;
