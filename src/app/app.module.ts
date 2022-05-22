@@ -15,6 +15,7 @@ import { MenuCentralComponent } from './menu-central/menu-central.component';
 import { ImagenPerfilComponent } from './imagen-perfil/imagen-perfil.component';
 import { HeaderComponent } from './header/header.component';
 import { BannerComponent } from './banner/banner.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -33,9 +34,11 @@ import { BannerComponent } from './banner/banner.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     FormsModule,
     
+
   ],
   providers: [],
   bootstrap: [AppComponent]

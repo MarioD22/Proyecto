@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { persona } from '../Model/persona.model';
+import { PersonaService } from '../service/persona.service';
 
 @Component({
   selector: 'app-info-personal',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InfoPersonalComponent implements OnInit {
 
-  constructor() { }
+  persona:persona =new persona("","","","","","","","","");
+
+  constructor(public personaservice: PersonaService) { }
 
   ngOnInit(): void {
-  }
+
+    this.personaservice.getPersona().subscribe(data => {this.persona=data})
+                  }
 
 }
