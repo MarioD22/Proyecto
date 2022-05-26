@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { trabajo } from '../Model/trabajo.model';
+import { TrabajoService } from '../service/trabajo.service';
 
 @Component({
   selector: 'app-trabajos',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TrabajosComponent implements OnInit {
 
-  constructor() { }
+ trabajo : trabajo = new trabajo("","","")
+  
+ constructor( public trabajoservice: TrabajoService){}
+ 
 
   ngOnInit(): void {
+    this.trabajoservice.getTrabajo().subscribe(data => {this.trabajo=data})
+   
+    
   }
 
+  
 }
